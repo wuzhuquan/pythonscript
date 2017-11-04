@@ -1,0 +1,490 @@
+2017-09-05 14:51:39,539 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:57648/session {"capabilities": {"firstMatch": [], "alwaysMatch": {"browserName": "chrome", "version": "", "platform": "ANY", "chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "chromeOptions": {"extensions": [], "args": []}}}
+2017-09-05 14:51:41,333 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 14:51:41,333 - root - INFO - ------正在打开PC后台管理系统------
+2017-09-05 14:51:41,333 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:57648/session/0380a354eed06b8753f6eb65d4aaf846/url {"url": "http://sdcm100:9880/spa-manager/", "sessionId": "0380a354eed06b8753f6eb65d4aaf846"}
+2017-09-05 14:51:41,942 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 14:51:41,942 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:57648/session/0380a354eed06b8753f6eb65d4aaf846/window/current/maximize {"windowHandle": "current", "sessionId": "0380a354eed06b8753f6eb65d4aaf846"}
+2017-09-05 14:51:43,393 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 14:51:43,393 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:57648/session/0380a354eed06b8753f6eb65d4aaf846/element {"using": "id", "value": "user-name", "sessionId": "0380a354eed06b8753f6eb65d4aaf846"}
+2017-09-05 14:51:43,409 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 14:51:43,409 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:57648/session/0380a354eed06b8753f6eb65d4aaf846/element/0.9835348740735044-1/value {"text": "wzq", "value": ["w", "z", "q"], "id": "0.9835348740735044-1", "sessionId": "0380a354eed06b8753f6eb65d4aaf846"}
+2017-09-05 14:51:43,456 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 14:51:43,456 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:57648/session/0380a354eed06b8753f6eb65d4aaf846/element {"using": "id", "value": "user-pw", "sessionId": "0380a354eed06b8753f6eb65d4aaf846"}
+2017-09-05 14:51:43,471 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 14:51:43,471 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:57648/session/0380a354eed06b8753f6eb65d4aaf846/element/0.9835348740735044-2/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "0.9835348740735044-2", "sessionId": "0380a354eed06b8753f6eb65d4aaf846"}
+2017-09-05 14:51:43,535 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 14:51:43,535 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:57648/session/0380a354eed06b8753f6eb65d4aaf846/element {"using": "xpath", "value": "//*[@id=\"login-dialog\"]/form/input[2]", "sessionId": "0380a354eed06b8753f6eb65d4aaf846"}
+2017-09-05 14:51:43,553 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 14:51:43,553 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:57648/session/0380a354eed06b8753f6eb65d4aaf846/element/0.9835348740735044-3/click {"id": "0.9835348740735044-3", "sessionId": "0380a354eed06b8753f6eb65d4aaf846"}
+2017-09-05 14:51:43,812 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 14:51:44,812 - root - INFO - ------PC后台管理系统登录成功------
+2017-09-05 14:51:44,812 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:57648/session/0380a354eed06b8753f6eb65d4aaf846/elements {"using": "xpath", "value": "//*[@id='homePage']/div[2]/div[2]/div[1]/table/tbody/tr", "sessionId": "0380a354eed06b8753f6eb65d4aaf846"}
+2017-09-05 14:51:44,834 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 14:51:44,835 - root - INFO - [<selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-1")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-2")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-3")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-4")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-5")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-6")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-7")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-8")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-9")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-10")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-11")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-12")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-13")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-14")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-15")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-16")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-17")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-18")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-19")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-20")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-21")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-22")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-23")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-24")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-25")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-26")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-27")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-28")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-29")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-30")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-31")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-32")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-33")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-34")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-35")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-36")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-37")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-38")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-39")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-40")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-41")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-42")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-43")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-44")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-45")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-46")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-47")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-48")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-49")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-50")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-51")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-52")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-53")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-54")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-55")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-56")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-57")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-58")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-59")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-60")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-61")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-62")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-63")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-64")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-65")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-66")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-67")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-68")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-69")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-70")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-71")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-72")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-73")>, <selenium.webdriver.remote.webelement.WebElement (session="0380a354eed06b8753f6eb65d4aaf846", element="0.2525748816316091-74")>]
+2017-09-05 15:03:31,361 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:62256/session {"capabilities": {"firstMatch": [], "alwaysMatch": {"browserName": "chrome", "version": "", "platform": "ANY", "chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "chromeOptions": {"extensions": [], "args": []}}}
+2017-09-05 15:03:33,055 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:03:33,056 - root - INFO - ------正在打开PC后台管理系统------
+2017-09-05 15:03:33,056 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:62256/session/7c28a516cd8eabdcfedf8e13e27ae4be/url {"url": "http://sdcm100:9880/spa-manager/", "sessionId": "7c28a516cd8eabdcfedf8e13e27ae4be"}
+2017-09-05 15:03:33,623 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:03:33,623 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:62256/session/7c28a516cd8eabdcfedf8e13e27ae4be/window/current/maximize {"windowHandle": "current", "sessionId": "7c28a516cd8eabdcfedf8e13e27ae4be"}
+2017-09-05 15:03:35,074 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:03:35,074 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:62256/session/7c28a516cd8eabdcfedf8e13e27ae4be/element {"using": "id", "value": "user-name", "sessionId": "7c28a516cd8eabdcfedf8e13e27ae4be"}
+2017-09-05 15:03:35,094 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:03:35,094 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:62256/session/7c28a516cd8eabdcfedf8e13e27ae4be/element/0.45621390791586647-1/value {"text": "wzq", "value": ["w", "z", "q"], "id": "0.45621390791586647-1", "sessionId": "7c28a516cd8eabdcfedf8e13e27ae4be"}
+2017-09-05 15:03:35,140 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:03:35,140 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:62256/session/7c28a516cd8eabdcfedf8e13e27ae4be/element {"using": "id", "value": "user-pw", "sessionId": "7c28a516cd8eabdcfedf8e13e27ae4be"}
+2017-09-05 15:03:35,158 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:03:35,158 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:62256/session/7c28a516cd8eabdcfedf8e13e27ae4be/element/0.45621390791586647-2/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "0.45621390791586647-2", "sessionId": "7c28a516cd8eabdcfedf8e13e27ae4be"}
+2017-09-05 15:03:35,203 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:03:35,203 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:62256/session/7c28a516cd8eabdcfedf8e13e27ae4be/element {"using": "xpath", "value": "//*[@id=\"login-dialog\"]/form/input[2]", "sessionId": "7c28a516cd8eabdcfedf8e13e27ae4be"}
+2017-09-05 15:03:35,220 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:03:35,221 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:62256/session/7c28a516cd8eabdcfedf8e13e27ae4be/element/0.45621390791586647-3/click {"id": "0.45621390791586647-3", "sessionId": "7c28a516cd8eabdcfedf8e13e27ae4be"}
+2017-09-05 15:03:35,410 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:03:36,411 - root - INFO - ------PC后台管理系统登录成功------
+2017-09-05 15:03:36,411 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:62256/session/7c28a516cd8eabdcfedf8e13e27ae4be/elements {"using": "xpath", "value": "//*[@id='homePage']/div[2]/div[2]/div[1]/table/tbody/tr", "sessionId": "7c28a516cd8eabdcfedf8e13e27ae4be"}
+2017-09-05 15:03:36,454 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:03:36,455 - root - INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-1")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-2")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-3")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-4")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-5")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-6")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-7")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-8")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-9")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-10")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-11")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-12")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-13")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-14")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-15")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-16")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-17")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-18")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-19")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-20")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-21")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-22")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-23")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-24")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-25")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-26")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-27")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-28")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-29")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-30")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-31")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-32")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-33")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-34")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-35")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-36")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-37")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-38")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-39")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-40")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-41")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-42")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-43")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-44")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-45")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-46")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-47")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-48")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-49")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-50")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-51")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-52")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-53")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-54")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-55")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-56")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-57")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-58")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-59")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-60")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-61")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-62")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-63")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-64")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-65")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-66")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-67")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-68")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-69")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-70")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-71")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-72")>, <selenium.webdriver.remote.webelement.WebElement (session="7c28a516cd8eabdcfedf8e13e27ae4be", element="0.4959133124268469-73")>]
+2017-09-05 15:03:37,459 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:62256/session/7c28a516cd8eabdcfedf8e13e27ae4be/element/0.4959133124268469-1/element {"using": "xpath", "value": ".//td[10]/div/p[1]/i", "id": "0.4959133124268469-1", "sessionId": "7c28a516cd8eabdcfedf8e13e27ae4be"}
+2017-09-05 15:03:37,498 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:03:37,498 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:62256/session/7c28a516cd8eabdcfedf8e13e27ae4be/element/0.4959133124268469-74/click {"id": "0.4959133124268469-74", "sessionId": "7c28a516cd8eabdcfedf8e13e27ae4be"}
+2017-09-05 15:03:37,553 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:03:38,553 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:62256/session/7c28a516cd8eabdcfedf8e13e27ae4be/element {"using": "xpath", "value": "//*[@id='confirmFastPayModal']/div/div[2]/a[1]", "sessionId": "7c28a516cd8eabdcfedf8e13e27ae4be"}
+2017-09-05 15:03:38,587 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:03:38,587 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:62256/session/7c28a516cd8eabdcfedf8e13e27ae4be/element/0.4959133124268469-75/click {"id": "0.4959133124268469-75", "sessionId": "7c28a516cd8eabdcfedf8e13e27ae4be"}
+2017-09-05 15:03:38,650 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:03:40,650 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:62256/session/7c28a516cd8eabdcfedf8e13e27ae4be/element/0.4959133124268469-2/element {"using": "xpath", "value": ".//td[10]/div/p[1]/i", "id": "0.4959133124268469-2", "sessionId": "7c28a516cd8eabdcfedf8e13e27ae4be"}
+2017-09-05 15:03:40,668 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:03:40,669 - root - ERROR - 找不到元素
+2017-09-05 15:16:10,586 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session {"capabilities": {"firstMatch": [], "alwaysMatch": {"browserName": "chrome", "version": "", "platform": "ANY", "chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "chromeOptions": {"extensions": [], "args": []}}}
+2017-09-05 15:16:12,269 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:12,269 - root - INFO - ------正在打开PC后台管理系统------
+2017-09-05 15:16:12,269 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/url {"url": "http://sdcm100:9880/spa-manager/", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:12,887 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:12,888 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/window/current/maximize {"windowHandle": "current", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:14,352 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:14,352 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element {"using": "id", "value": "user-name", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:14,371 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:14,371 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element/0.4213890828174227-1/value {"text": "wzq", "value": ["w", "z", "q"], "id": "0.4213890828174227-1", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:14,419 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:14,419 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element {"using": "id", "value": "user-pw", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:14,436 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:14,436 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element/0.4213890828174227-2/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "0.4213890828174227-2", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:14,482 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:14,482 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element {"using": "xpath", "value": "//*[@id=\"login-dialog\"]/form/input[2]", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:14,500 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:14,500 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element/0.4213890828174227-3/click {"id": "0.4213890828174227-3", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:14,741 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:15,741 - root - INFO - ------PC后台管理系统登录成功------
+2017-09-05 15:16:15,741 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element {"using": "xpath", "value": "//*[@id='homePage']/div[2]/div[2]/div[1]/table/tbody/tr", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:15,811 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:15,811 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="d3987e17b23ca9184aedf94c7db1ece9", element="0.8426955811660675-1")>
+2017-09-05 15:16:16,813 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element/0.8426955811660675-1/element {"using": "xpath", "value": ".//td[10]/div/p[1]/i", "id": "0.8426955811660675-1", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:16,845 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:16,845 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element/0.8426955811660675-2/click {"id": "0.8426955811660675-2", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:16,907 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:17,913 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element {"using": "xpath", "value": "//*[@id='confirmFastPayModal']/div/div[2]/a[1]", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:17,945 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:17,945 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element/0.8426955811660675-3/click {"id": "0.8426955811660675-3", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:17,991 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:18,991 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element {"using": "xpath", "value": "//*[@id='homePage']/div[2]/div[2]/div[1]/table/tbody/tr", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:19,007 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:19,007 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="d3987e17b23ca9184aedf94c7db1ece9", element="0.8426955811660675-4")>
+2017-09-05 15:16:20,009 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element/0.8426955811660675-4/element {"using": "xpath", "value": ".//td[10]/div/p[1]/i", "id": "0.8426955811660675-4", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:20,041 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:20,041 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element/0.8426955811660675-5/click {"id": "0.8426955811660675-5", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:20,087 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:21,097 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element {"using": "xpath", "value": "//*[@id='confirmFastPayModal']/div/div[2]/a[1]", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:21,113 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:21,113 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element/0.8426955811660675-3/click {"id": "0.8426955811660675-3", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:21,137 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:22,139 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element {"using": "xpath", "value": "//*[@id='homePage']/div[2]/div[2]/div[1]/table/tbody/tr", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:22,139 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:22,139 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="d3987e17b23ca9184aedf94c7db1ece9", element="0.8426955811660675-6")>
+2017-09-05 15:16:23,139 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element/0.8426955811660675-6/element {"using": "xpath", "value": ".//td[10]/div/p[1]/i", "id": "0.8426955811660675-6", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:23,170 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:23,170 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element/0.8426955811660675-7/click {"id": "0.8426955811660675-7", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:23,241 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:24,245 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element {"using": "xpath", "value": "//*[@id='confirmFastPayModal']/div/div[2]/a[1]", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:24,261 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:24,261 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element/0.8426955811660675-3/click {"id": "0.8426955811660675-3", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:24,276 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:25,289 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element {"using": "xpath", "value": "//*[@id='homePage']/div[2]/div[2]/div[1]/table/tbody/tr", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:25,305 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:25,305 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="d3987e17b23ca9184aedf94c7db1ece9", element="0.8426955811660675-8")>
+2017-09-05 15:16:26,310 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:59738/session/d3987e17b23ca9184aedf94c7db1ece9/element/0.8426955811660675-8/element {"using": "xpath", "value": ".//td[10]/div/p[1]/i", "id": "0.8426955811660675-8", "sessionId": "d3987e17b23ca9184aedf94c7db1ece9"}
+2017-09-05 15:16:26,326 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:16:26,326 - root - ERROR - 找不到元素
+2017-09-05 15:18:48,964 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session {"capabilities": {"firstMatch": [], "alwaysMatch": {"browserName": "chrome", "version": "", "platform": "ANY", "chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "chromeOptions": {"extensions": [], "args": []}}}
+2017-09-05 15:18:50,629 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:50,629 - root - INFO - ------正在打开PC后台管理系统------
+2017-09-05 15:18:50,629 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/url {"url": "http://sdcm100:9880/spa-manager/", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:51,262 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:51,262 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/window/current/maximize {"windowHandle": "current", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:52,709 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:52,709 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element {"using": "id", "value": "user-name", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:52,728 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:52,728 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element/0.26011570098111303-1/value {"text": "wzq", "value": ["w", "z", "q"], "id": "0.26011570098111303-1", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:52,775 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:52,776 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element {"using": "id", "value": "user-pw", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:52,792 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:52,793 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element/0.26011570098111303-2/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "0.26011570098111303-2", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:52,841 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:52,842 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element {"using": "xpath", "value": "//*[@id=\"login-dialog\"]/form/input[2]", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:52,859 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:52,860 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element/0.26011570098111303-3/click {"id": "0.26011570098111303-3", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:53,063 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:54,064 - root - INFO - ------PC后台管理系统登录成功------
+2017-09-05 15:18:54,064 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element {"using": "xpath", "value": "//*[@id='homePage']/div[2]/div[2]/div[1]/table/tbody/tr", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:54,086 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:54,086 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="38c2495e105aa0cf61727d832e6a19ad", element="0.35087831087920174-1")>
+2017-09-05 15:18:55,101 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:55,101 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:55,101 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element/0.35087831087920174-1/element {"using": "xpath", "value": ".//td[10]/div/p[1]/i", "id": "0.35087831087920174-1", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:55,117 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:55,117 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element/0.35087831087920174-2/click {"id": "0.35087831087920174-2", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:55,164 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:56,176 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:56,176 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:56,176 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element {"using": "xpath", "value": "//*[@id='confirmFastPayModal']/div/div[2]/a[1]", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:56,207 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:56,207 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element/0.35087831087920174-3/click {"id": "0.35087831087920174-3", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:56,301 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:56,301 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:56,301 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:57,303 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element {"using": "xpath", "value": "//*[@id='homePage']/div[2]/div[2]/div[1]/table/tbody/tr", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:57,319 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:57,319 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="38c2495e105aa0cf61727d832e6a19ad", element="0.35087831087920174-4")>
+2017-09-05 15:18:58,334 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:58,334 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:58,334 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element/0.35087831087920174-4/element {"using": "xpath", "value": ".//td[10]/div/p[1]/i", "id": "0.35087831087920174-4", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:58,365 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:58,365 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element/0.35087831087920174-5/click {"id": "0.35087831087920174-5", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:58,421 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:59,431 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:59,431 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:59,431 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element {"using": "xpath", "value": "//*[@id='confirmFastPayModal']/div/div[2]/a[1]", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:59,447 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:59,447 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element/0.35087831087920174-3/click {"id": "0.35087831087920174-3", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:59,478 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:18:59,478 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:18:59,478 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:19:00,482 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element {"using": "xpath", "value": "//*[@id='homePage']/div[2]/div[2]/div[1]/table/tbody/tr", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:19:00,498 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:19:00,498 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="38c2495e105aa0cf61727d832e6a19ad", element="0.35087831087920174-6")>
+2017-09-05 15:19:01,512 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:19:01,512 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:19:01,512 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element/0.35087831087920174-6/element {"using": "xpath", "value": ".//td[10]/div/p[1]/i", "id": "0.35087831087920174-6", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:19:01,550 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:19:01,551 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element/0.35087831087920174-7/click {"id": "0.35087831087920174-7", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:19:01,587 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:19:02,595 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:19:02,595 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:19:02,595 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element {"using": "xpath", "value": "//*[@id='confirmFastPayModal']/div/div[2]/a[1]", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:19:02,595 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:19:02,595 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element/0.35087831087920174-3/click {"id": "0.35087831087920174-3", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:19:02,626 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:19:02,626 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:19:02,626 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:19:03,633 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element {"using": "xpath", "value": "//*[@id='homePage']/div[2]/div[2]/div[1]/table/tbody/tr", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:19:03,649 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:19:03,649 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="38c2495e105aa0cf61727d832e6a19ad", element="0.35087831087920174-8")>
+2017-09-05 15:19:04,657 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:19:04,657 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:19:04,657 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:60963/session/38c2495e105aa0cf61727d832e6a19ad/element/0.35087831087920174-8/element {"using": "xpath", "value": ".//td[10]/div/p[1]/i", "id": "0.35087831087920174-8", "sessionId": "38c2495e105aa0cf61727d832e6a19ad"}
+2017-09-05 15:19:04,672 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-09-05 15:19:04,672 - root - ERROR - 找不到元素
+2017-09-05 15:33:32,362 - root - INFO - ------正在打开PC后台管理系统------
+2017-09-05 15:33:35,895 - root - INFO - ------PC后台管理系统登录成功------
+2017-09-05 15:33:35,942 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="34cfcce11119529c0cf2c392134f22e8", element="0.6404660548013787-1")>
+2017-09-05 15:33:39,237 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="34cfcce11119529c0cf2c392134f22e8", element="0.6404660548013787-4")>
+2017-09-05 15:33:42,426 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="34cfcce11119529c0cf2c392134f22e8", element="0.6404660548013787-6")>
+2017-09-05 15:33:45,726 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="34cfcce11119529c0cf2c392134f22e8", element="0.6404660548013787-8")>
+2017-09-05 15:33:48,906 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="34cfcce11119529c0cf2c392134f22e8", element="0.6404660548013787-10")>
+2017-09-05 15:33:52,100 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="34cfcce11119529c0cf2c392134f22e8", element="0.6404660548013787-12")>
+2017-09-05 15:33:55,307 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="34cfcce11119529c0cf2c392134f22e8", element="0.6404660548013787-14")>
+2017-09-05 15:33:56,326 - root - ERROR - 找不到元素
+2017-09-05 15:35:15,879 - root - INFO - ------正在打开PC后台管理系统------
+2017-09-05 15:35:19,410 - root - INFO - ------PC后台管理系统登录成功------
+2017-09-05 15:35:19,449 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="62fe4da298764235cc1fdf23088e167f", element="0.1070200964683512-1")>
+2017-09-05 15:35:22,751 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="62fe4da298764235cc1fdf23088e167f", element="0.1070200964683512-4")>
+2017-09-05 15:35:25,970 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="62fe4da298764235cc1fdf23088e167f", element="0.1070200964683512-6")>
+2017-09-05 15:35:29,337 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="62fe4da298764235cc1fdf23088e167f", element="0.1070200964683512-8")>
+2017-09-05 15:35:30,355 - root - ERROR - 找不到元素
+2017-09-05 15:43:02,321 - root - INFO - ------正在打开PC后台管理系统------
+2017-09-05 15:43:05,894 - root - INFO - ------PC后台管理系统登录成功------
+2017-09-05 15:43:05,945 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="864c9c4cd2afbbb1cf3a1ce82ec6666c", element="0.44757679426792585-1")>
+2017-09-05 15:43:09,199 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="864c9c4cd2afbbb1cf3a1ce82ec6666c", element="0.44757679426792585-4")>
+2017-09-05 15:43:12,382 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="864c9c4cd2afbbb1cf3a1ce82ec6666c", element="0.44757679426792585-6")>
+2017-09-05 15:43:15,517 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="864c9c4cd2afbbb1cf3a1ce82ec6666c", element="0.44757679426792585-8")>
+2017-09-05 16:14:01,337 - root - INFO - ------正在打开PC后台管理系统------
+2017-09-05 16:14:30,393 - root - INFO - ------PC后台管理系统登录成功------
+2017-09-05 16:14:30,420 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="77e7266836395ce07134896e0d07acbd", element="0.9932113384862271-1")>
+2017-09-05 16:14:34,615 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="77e7266836395ce07134896e0d07acbd", element="0.9932113384862271-4")>
+2017-09-05 16:14:38,862 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="77e7266836395ce07134896e0d07acbd", element="0.9932113384862271-6")>
+2017-09-05 16:26:18,751 - root - INFO - ------正在打开PC后台管理系统------
+2017-09-05 16:26:22,199 - root - INFO - ------PC后台管理系统登录成功------
+2017-09-05 16:26:22,248 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="19dc7b00caa333388a13c31adee0b58b", element="0.05890335761770249-1")>
+2017-09-05 16:26:25,469 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="19dc7b00caa333388a13c31adee0b58b", element="0.05890335761770249-3")>
+2017-09-05 16:26:28,614 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="19dc7b00caa333388a13c31adee0b58b", element="0.05890335761770249-4")>
+2017-09-05 16:26:31,942 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="19dc7b00caa333388a13c31adee0b58b", element="0.05890335761770249-5")>
+2017-09-05 16:26:35,134 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="19dc7b00caa333388a13c31adee0b58b", element="0.05890335761770249-6")>
+2017-09-05 16:26:38,295 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="19dc7b00caa333388a13c31adee0b58b", element="0.05890335761770249-7")>
+2017-09-05 16:26:41,432 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="19dc7b00caa333388a13c31adee0b58b", element="0.05890335761770249-8")>
+2017-09-05 17:38:28,570 - root - INFO - ------正在打开PC后台管理系统------
+2017-09-05 17:38:32,207 - root - INFO - ------PC后台管理系统登录成功------
+2017-09-05 17:38:32,261 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="e3f83580bc159f6538b8a8c1e6b94aec", element="0.8252420491564749-1")>
+2017-09-05 17:38:35,443 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="e3f83580bc159f6538b8a8c1e6b94aec", element="0.8252420491564749-3")>
+2017-09-05 17:38:38,600 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="e3f83580bc159f6538b8a8c1e6b94aec", element="0.8252420491564749-4")>
+2017-09-05 17:38:41,755 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="e3f83580bc159f6538b8a8c1e6b94aec", element="0.8252420491564749-5")>
+2017-09-05 18:07:09,160 - root - INFO - ------正在打开PC后台管理系统------
+2017-09-05 18:07:12,708 - root - INFO - ------PC后台管理系统登录成功------
+2017-09-05 18:07:13,773 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="3d7995f082e036802c7e06a562c97b18", element="0.07447767254848903-1")>
+2017-09-05 18:07:18,012 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="3d7995f082e036802c7e06a562c97b18", element="0.07447767254848903-3")>
+2017-09-05 18:07:22,224 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="3d7995f082e036802c7e06a562c97b18", element="0.07447767254848903-4")>
+2017-09-05 18:09:36,613 - root - INFO - ------正在打开PC后台管理系统------
+2017-09-05 18:09:40,041 - root - INFO - ------PC后台管理系统登录成功------
+2017-09-05 18:09:41,107 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.8874852689639685-1")>
+2017-09-05 18:09:46,424 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.24306478908537366-1")>
+2017-09-05 18:09:51,690 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.5352563896633356-1")>
+2017-09-05 18:09:56,913 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.23928665282924877-1")>
+2017-09-05 18:10:02,173 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.18884260438522316-1")>
+2017-09-05 18:10:07,422 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.5417306869126841-1")>
+2017-09-05 18:10:12,689 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.4043821401183736-1")>
+2017-09-05 18:10:17,961 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.397478817655899-1")>
+2017-09-05 18:10:23,239 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.6964600400961498-1")>
+2017-09-05 18:10:28,503 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.6556700706216765-1")>
+2017-09-05 18:10:33,773 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.25670832008364775-1")>
+2017-09-05 18:10:39,048 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.504581612973104-1")>
+2017-09-05 18:10:44,341 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.0005844540791895003-1")>
+2017-09-05 18:10:49,622 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.7071065063217441-1")>
+2017-09-05 18:10:54,858 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.49418636349535183-1")>
+2017-09-05 18:11:00,155 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.9635321607601692-1")>
+2017-09-05 18:11:05,420 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.23190510813394938-1")>
+2017-09-05 18:11:10,702 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.30901916814543573-1")>
+2017-09-05 18:11:15,940 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.33992523128894625-1")>
+2017-09-05 18:11:21,200 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.5073011182437692-1")>
+2017-09-05 18:11:26,451 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.18954093095214453-1")>
+2017-09-05 18:11:31,733 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.22029556542834472-1")>
+2017-09-05 18:11:36,978 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.7725644859881677-1")>
+2017-09-05 18:11:42,231 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.5232504385759031-1")>
+2017-09-05 18:11:47,473 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.612385276145196-1")>
+2017-09-05 18:11:52,721 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.12297075262057211-1")>
+2017-09-05 18:11:57,980 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.3567720423486638-1")>
+2017-09-05 18:12:03,240 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.42708205094831997-1")>
+2017-09-05 18:12:08,487 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.885980231830348-1")>
+2017-09-05 18:12:13,740 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.4078286457646223-1")>
+2017-09-05 18:12:19,020 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.9002158695636451-1")>
+2017-09-05 18:12:24,278 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.43125836227833525-1")>
+2017-09-05 18:12:29,552 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.09690359826602246-1")>
+2017-09-05 18:12:34,800 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.09293838569482493-1")>
+2017-09-05 18:12:40,072 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.6498761754232576-1")>
+2017-09-05 18:12:45,354 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.8552394168721877-1")>
+2017-09-05 18:12:50,578 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.06930014366691895-1")>
+2017-09-05 18:12:55,813 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.2398370987788465-1")>
+2017-09-05 18:13:01,024 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.5076673483312237-1")>
+2017-09-05 18:13:06,263 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.6687190346547871-1")>
+2017-09-05 18:13:11,471 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.9845551192868576-1")>
+2017-09-05 18:13:16,713 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.25152799083655264-1")>
+2017-09-05 18:13:21,993 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.5799160045831493-1")>
+2017-09-05 18:13:27,261 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.9341156697287876-1")>
+2017-09-05 18:13:32,532 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.3144212619567963-1")>
+2017-09-05 18:13:37,773 - root - INFO - <selenium.webdriver.remote.webelement.WebElement (session="8e3479a98c6c042e65ccac486c140445", element="0.48290443253262505-1")>
+2017-09-14 12:29:04,551 - root - INFO - ------正在打开PC后台管理系统------
+2017-09-14 12:29:08,056 - root - INFO - ------PC后台管理系统登录成功------
+2017-09-14 12:29:09,102 - root - INFO - 找到了订单
+2017-09-14 12:29:10,316 - root - INFO - 订单已确认
+2017-09-14 12:29:13,426 - root - INFO - 找到了订单
+2017-09-14 12:29:14,589 - root - INFO - 订单已确认
+2017-09-14 12:29:17,717 - root - INFO - 找到了订单
+2017-09-14 12:29:18,849 - root - INFO - 订单已确认
+2017-09-14 12:29:21,981 - root - INFO - 找到了订单
+2017-09-14 12:29:23,144 - root - INFO - 订单已确认
+2017-09-14 12:29:26,246 - root - INFO - 找到了订单
+2017-09-14 12:29:27,412 - root - INFO - 订单已确认
+2017-09-14 12:29:30,515 - root - INFO - 找到了订单
+2017-09-14 12:29:31,674 - root - INFO - 订单已确认
+2017-09-14 12:29:35,018 - root - INFO - 找到了订单
+2017-09-14 12:29:36,161 - root - INFO - 订单已确认
+2017-09-14 12:29:39,251 - root - INFO - 找到了订单
+2017-09-14 12:29:40,382 - root - INFO - 订单已确认
+2017-09-14 12:29:43,484 - root - INFO - 找到了订单
+2017-09-14 12:29:44,639 - root - INFO - 订单已确认
+2017-09-14 12:29:47,750 - root - INFO - 找到了订单
+2017-09-14 12:29:48,919 - root - INFO - 订单已确认
+2017-09-14 12:29:52,032 - root - INFO - 找到了订单
+2017-09-14 12:29:53,177 - root - INFO - 订单已确认
+2017-09-14 12:29:56,282 - root - INFO - 找到了订单
+2017-09-14 12:29:57,431 - root - INFO - 订单已确认
+2017-09-14 12:30:00,563 - root - INFO - 找到了订单
+2017-09-14 12:30:01,698 - root - INFO - 订单已确认
+2017-09-26 16:12:35,017 - root - INFO - ------正在打开PC后台管理系统------
+2017-09-26 16:12:38,737 - root - INFO - ------PC后台管理系统登录成功------
+2017-09-26 16:12:39,773 - root - INFO - 找到了订单
+2017-09-26 16:12:40,950 - root - INFO - 订单已确认
+2017-09-26 16:12:46,613 - root - INFO - 找到了订单
+2017-09-26 17:21:50,430 - root - INFO - ------正在打开PC后台管理系统------
+2017-09-26 17:21:53,845 - root - INFO - ------PC后台管理系统登录成功------
+2017-09-26 17:21:54,877 - root - INFO - 找到了订单
+2017-09-26 17:21:56,048 - root - INFO - 订单已确认
+2017-09-26 17:21:59,164 - root - INFO - 找到了订单
+2017-09-26 17:22:00,309 - root - INFO - 订单已确认
+2017-09-26 17:22:03,424 - root - INFO - 找到了订单
+2017-09-26 17:22:04,559 - root - INFO - 订单已确认
+2017-09-26 17:22:07,666 - root - INFO - 找到了订单
+2017-09-26 17:22:08,852 - root - INFO - 订单已确认
+2017-09-26 17:22:11,953 - root - INFO - 找到了订单
+2017-09-26 17:22:13,102 - root - INFO - 订单已确认
+2017-09-26 17:22:16,256 - root - INFO - 找到了订单
+2017-09-26 17:22:17,413 - root - INFO - 订单已确认
+2017-09-26 17:22:20,506 - root - INFO - 找到了订单
+2017-09-26 17:22:21,645 - root - INFO - 订单已确认
+2017-09-26 17:22:24,743 - root - INFO - 找到了订单
+2017-09-26 17:22:25,891 - root - INFO - 订单已确认
+2017-09-26 17:22:29,006 - root - INFO - 找到了订单
+2017-09-26 17:22:30,163 - root - INFO - 订单已确认
+2017-09-26 17:22:33,266 - root - INFO - 找到了订单
+2017-09-26 17:22:34,418 - root - INFO - 订单已确认
+2017-09-26 17:22:37,517 - root - INFO - 找到了订单
+2017-09-26 17:22:38,686 - root - INFO - 订单已确认
+2017-09-26 17:22:41,801 - root - INFO - 找到了订单
+2017-09-26 17:22:42,956 - root - INFO - 订单已确认
+2017-09-26 17:22:46,055 - root - INFO - 找到了订单
+2017-09-26 17:22:47,210 - root - INFO - 订单已确认
+2017-09-26 17:22:50,336 - root - INFO - 找到了订单
+2017-09-26 17:22:51,485 - root - INFO - 订单已确认
+2017-09-26 17:22:54,574 - root - INFO - 找到了订单
+2017-09-26 17:22:55,757 - root - INFO - 订单已确认
+2017-09-26 17:22:58,847 - root - INFO - 找到了订单
+2017-09-26 17:22:59,982 - root - INFO - 订单已确认
+2017-09-26 17:23:03,091 - root - INFO - 找到了订单
+2017-09-26 17:23:04,261 - root - INFO - 订单已确认
+2017-09-26 17:23:07,335 - root - INFO - 找到了订单
+2017-09-26 17:23:08,458 - root - INFO - 订单已确认
+2017-09-26 17:23:11,537 - root - INFO - 找到了订单
+2017-09-26 17:23:12,703 - root - INFO - 订单已确认
+2017-09-26 17:23:15,762 - root - INFO - 找到了订单
+2017-09-26 17:23:16,912 - root - INFO - 订单已确认
+2017-09-26 17:23:20,035 - root - INFO - 找到了订单
+2017-09-26 17:23:21,170 - root - INFO - 订单已确认
+2017-09-26 17:23:24,273 - root - INFO - 找到了订单
+2017-09-26 17:23:25,426 - root - INFO - 订单已确认
+2017-09-26 17:23:28,528 - root - INFO - 找到了订单
+2017-09-26 17:23:29,694 - root - INFO - 订单已确认
+2017-09-26 17:23:32,761 - root - INFO - 找到了订单
+2017-09-26 17:23:33,931 - root - INFO - 订单已确认
+2017-09-26 17:23:37,013 - root - INFO - 找到了订单
+2017-09-26 17:23:38,190 - root - INFO - 订单已确认
+2017-09-26 17:23:41,279 - root - INFO - 找到了订单
+2017-09-26 17:23:42,466 - root - INFO - 订单已确认
+2017-09-26 17:23:45,574 - root - INFO - 找到了订单
+2017-09-26 17:23:46,724 - root - INFO - 订单已确认
+2017-09-26 17:23:49,825 - root - INFO - 找到了订单
+2017-09-26 17:23:51,013 - root - INFO - 订单已确认
+2017-09-26 17:23:54,109 - root - INFO - 找到了订单
+2017-09-26 17:23:55,266 - root - INFO - 订单已确认
+2017-09-26 17:23:58,336 - root - INFO - 找到了订单
+2017-09-26 17:23:59,463 - root - INFO - 订单已确认
+2017-09-26 17:24:02,544 - root - INFO - 找到了订单
+2017-09-26 17:24:03,672 - root - INFO - 订单已确认
+2017-09-26 17:24:06,741 - root - INFO - 找到了订单
+2017-09-26 17:24:07,906 - root - INFO - 订单已确认
+2017-09-26 17:24:10,987 - root - INFO - 找到了订单
+2017-09-26 17:24:12,158 - root - INFO - 订单已确认
+2017-09-26 17:24:15,226 - root - INFO - 找到了订单
+2017-09-26 17:24:16,398 - root - INFO - 订单已确认
+2017-09-26 17:24:19,516 - root - INFO - 找到了订单
+2017-09-26 17:24:20,687 - root - INFO - 订单已确认
+2017-09-26 17:24:23,762 - root - INFO - 找到了订单
+2017-09-26 17:24:24,942 - root - INFO - 订单已确认
+2017-09-26 17:24:28,030 - root - INFO - 找到了订单
+2017-09-26 17:24:29,222 - root - INFO - 订单已确认
+2017-09-26 17:24:32,304 - root - INFO - 找到了订单
+2017-09-26 17:24:33,435 - root - INFO - 订单已确认
+2017-09-26 17:24:36,532 - root - INFO - 找到了订单
+2017-09-26 17:24:37,713 - root - INFO - 订单已确认
+2017-09-26 17:24:40,809 - root - INFO - 找到了订单
+2017-09-26 17:24:41,988 - root - INFO - 订单已确认
+2017-09-26 17:24:45,090 - root - INFO - 找到了订单
+2017-09-26 17:24:46,248 - root - INFO - 订单已确认
+2017-09-26 17:24:49,356 - root - INFO - 找到了订单
+2017-09-26 17:24:50,533 - root - INFO - 订单已确认
+2017-09-26 17:24:53,592 - root - INFO - 找到了订单
+2017-09-26 17:24:54,769 - root - INFO - 订单已确认
+2017-09-26 17:24:57,860 - root - INFO - 找到了订单
+2017-09-26 17:24:59,024 - root - INFO - 订单已确认
+2017-09-26 17:25:02,123 - root - INFO - 找到了订单
+2017-09-26 17:25:03,279 - root - INFO - 订单已确认
+2017-09-26 17:25:06,376 - root - INFO - 找到了订单
+2017-09-26 17:25:07,545 - root - INFO - 订单已确认
+2017-09-26 17:25:10,645 - root - INFO - 找到了订单
+2017-09-26 17:25:11,817 - root - INFO - 订单已确认
+2017-09-26 17:25:14,919 - root - INFO - 找到了订单
+2017-09-26 17:25:16,097 - root - INFO - 订单已确认
+2017-09-26 17:25:19,189 - root - INFO - 找到了订单
+2017-09-26 17:25:20,376 - root - INFO - 订单已确认
+2017-09-26 17:25:23,487 - root - INFO - 找到了订单
+2017-09-26 17:25:24,656 - root - INFO - 订单已确认
+2017-09-26 17:25:27,741 - root - INFO - 找到了订单
+2017-09-26 17:25:28,948 - root - INFO - 订单已确认
+2017-09-26 17:25:32,025 - root - INFO - 找到了订单
+2017-09-26 17:25:33,200 - root - INFO - 订单已确认
+2017-09-26 17:25:36,267 - root - INFO - 找到了订单
+2017-09-26 17:25:37,448 - root - INFO - 订单已确认
+2017-09-26 17:25:40,543 - root - INFO - 找到了订单
+2017-09-26 17:25:41,712 - root - INFO - 订单已确认
+2017-09-26 17:25:44,814 - root - INFO - 找到了订单
+2017-09-26 17:25:45,983 - root - INFO - 订单已确认
+2017-09-26 17:25:49,063 - root - INFO - 找到了订单
+2017-09-26 17:25:50,248 - root - INFO - 订单已确认
+2017-09-26 17:25:53,312 - root - INFO - 找到了订单
+2017-09-26 17:25:54,490 - root - INFO - 订单已确认
+2017-09-26 17:25:57,574 - root - INFO - 找到了订单
+2017-09-26 17:25:58,737 - root - INFO - 订单已确认
+2017-09-26 17:26:10,917 - root - ERROR - 找不到元素
+2017-09-29 12:29:26,068 - root - INFO - ------正在打开PC后台管理系统------
+2017-09-29 12:29:29,949 - root - INFO - ------PC后台管理系统登录成功------
+2017-09-29 12:29:30,998 - root - INFO - 找到了订单
+2017-09-29 12:29:32,211 - root - INFO - 订单已确认
+2017-09-29 12:29:36,979 - root - INFO - 找到了订单
+2017-09-29 12:29:48,182 - root - INFO - 订单已确认
+2017-09-29 12:29:53,887 - root - INFO - 找到了订单
+2017-10-10 18:41:47,041 - root - INFO - ------正在打开PC后台管理系统------
+2017-10-10 18:41:50,451 - root - INFO - ------PC后台管理系统登录成功------
+2017-10-10 18:41:51,509 - root - INFO - 找到了订单
+2017-10-10 18:41:52,697 - root - INFO - 订单已确认
+2017-10-19 18:47:17,825 - root - INFO - ------正在打开PC后台管理系统------
+2017-10-19 18:47:21,324 - root - INFO - ------PC后台管理系统登录成功------
+2017-10-19 18:47:22,362 - root - INFO - 找到了订单
+2017-10-19 18:47:23,550 - root - INFO - 订单已确认
+2017-10-19 18:47:26,658 - root - INFO - 找到了订单
+2017-10-19 18:47:27,868 - root - INFO - 订单已确认
+2017-10-19 18:47:30,996 - root - INFO - 找到了订单
+2017-10-19 18:47:32,142 - root - INFO - 订单已确认
+2017-10-19 18:47:35,235 - root - INFO - 找到了订单
+2017-10-19 18:47:36,387 - root - INFO - 订单已确认
+2017-10-19 18:47:39,550 - root - INFO - 找到了订单
+2017-10-19 18:47:40,706 - root - INFO - 订单已确认
+2017-10-19 18:47:43,807 - root - INFO - 找到了订单
+2017-10-19 18:47:45,005 - root - INFO - 订单已确认
+2017-10-19 18:47:48,098 - root - INFO - 找到了订单
+2017-10-19 18:47:49,311 - root - INFO - 订单已确认
+2017-10-19 18:47:52,441 - root - INFO - 找到了订单
+2017-10-19 18:47:53,610 - root - INFO - 订单已确认
+2017-10-19 18:47:56,707 - root - INFO - 找到了订单
+2017-10-19 18:47:57,895 - root - INFO - 订单已确认
+2017-10-19 18:48:00,984 - root - INFO - 找到了订单
+2017-10-19 18:48:02,137 - root - INFO - 订单已确认
+2017-10-19 18:48:05,244 - root - INFO - 找到了订单
+2017-10-19 18:48:06,407 - root - INFO - 订单已确认
+2017-10-19 18:48:09,498 - root - INFO - 找到了订单
+2017-10-19 18:48:10,663 - root - INFO - 订单已确认
+2017-10-19 18:48:23,059 - root - ERROR - 找不到元素，已经没有新的未处理订单
+2017-11-04 09:36:40,827 - root - INFO - ------正在打开PC后台管理系统------
+2017-11-04 11:23:29,290 - root - INFO - 输入邮箱名
+2017-11-04 11:23:29,290 - root - INFO - 输入邮箱名
+2017-11-04 11:23:29,446 - root - INFO - 输入密码
+2017-11-04 11:23:29,446 - root - INFO - 输入密码
+2017-11-04 11:23:29,541 - root - INFO - 点击登陆
+2017-11-04 11:23:29,541 - root - INFO - 点击登陆
+2017-11-04 11:23:30,861 - root - INFO - 点击通讯录
+2017-11-04 11:23:30,861 - root - INFO - 点击通讯录
